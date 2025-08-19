@@ -32,6 +32,11 @@ pip install protobuf
 python preprocess.py
 ```
 
+## training
+```bash
+python main.py --dataset arxiv
+```
+
 ## Reference 
 ```
 @article{node-tokenizer,
@@ -49,9 +54,4 @@ python preprocess.py
   volume       = {abs/2410.10743},
   year         = {2024}
 }
-```
-
-## training
-```bash
-python main.py --dataset arxiv
 ```
