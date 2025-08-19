@@ -32,6 +32,25 @@ pip install protobuf
 python preprocess.py
 ```
 
+## Reference 
+```
+@article{node-tokenizer,
+  author       = {Yanbiao Ji and
+                  Chang Liu and
+                  Xin Chen and
+                  Yue Ding and
+                  Dan Luo and
+                  Mei Li and
+                  Wenqing Lin and
+                  Hongtao Lu},
+  title        = {{NT-LLM:} {A} Novel Node Tokenizer for Integrating Graph Structure
+                  into Large Language Models},
+  journal      = {CoRR},
+  volume       = {abs/2410.10743},
+  year         = {2024}
+}
+```
+
 ## training
 ```bash
 python main.py --dataset arxiv
